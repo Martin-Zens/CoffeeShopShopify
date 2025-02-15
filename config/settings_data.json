@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "colors_accent_1": "#453425",
+    "social_facebook_link": "https://facebook.com/shopify",
+    "social_pinterest_link": "https://pinterest.com/shopify",
+    "social_instagram_link": "http://instagram.com/shopify",
+    "social_youtube_link": "https://www.youtube.com/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify://shop_images/Coffee_Fuse_logo_5b03ac37-469d-4f96-a898-1aca2f5d1f72.png",
+          "logo_width": 200,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "fa6341ae-25af-4078-ad7c-bbe2af592a2c": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "18ed9911-1eb6-41d5-95b1-36c13f32538e": {
+            "type": "text",
+            "settings": {
+              "heading": "Fuse Coffee",
+              "subtext": "<p><strong>📍4941 Mapledrive, 33607 Fl</strong></p><p><strong>☎️ 727-955-3308</strong></p><p><strong>📧 hello@fuse-coffee.com</strong></p>"
+            }
+          }
+        },
+        "block_order": [
+          "fa6341ae-25af-4078-ad7c-bbe2af592a2c",
+          "footer-0",
+          "18ed9911-1eb6-41d5-95b1-36c13f32538e"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "4 Coffee Lovers ❤️",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}
