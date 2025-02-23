@@ -277,9 +277,11 @@
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
-                  </div>
+                  </div>                  
                 {%- endform -%}
               </product-form>
+
+              {% render 'payment-icons' %}
 
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 

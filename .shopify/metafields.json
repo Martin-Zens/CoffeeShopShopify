@@ -1,0 +1,137 @@
+{
+  "article": [],
+  "blog": [],
+  "brand": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [
+    {
+      "key": "shipping",
+      "namespace": "custom",
+      "name": "Shipping",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "product": [
+    {
+      "key": "shipping",
+      "namespace": "custom",
+      "name": "Shippingz",
+      "description": "Ships in three days!",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "test_color",
+      "namespace": "custom",
+      "name": "test color",
+      "description": "",
+      "type": {
+        "name": "color",
+        "category": "COLOR"
+      }
+    },
+    {
+      "key": "test_bewertung",
+      "namespace": "custom",
+      "name": "test bewertung",
+      "description": "",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "wahroderfalsch",
+      "namespace": "custom",
+      "name": "wahroderfalsch",
+      "description": "",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "date_and_time",
+      "namespace": "custom",
+      "name": "date and time",
+      "description": "",
+      "type": {
+        "name": "date_time",
+        "category": "DATE_TIME"
+      }
+    },
+    {
+      "key": "info_table",
+      "namespace": "custom",
+      "name": "Info-table",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "flavor",
+      "namespace": "custom",
+      "name": "Flavor",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "strength",
+      "namespace": "custom",
+      "name": "Strength",
+      "description": "",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "acidity",
+      "namespace": "custom",
+      "name": "Acidity",
+      "description": "",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "type",
+      "namespace": "custom",
+      "name": "Type",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "origin",
+      "namespace": "custom",
+      "name": "Origin",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
