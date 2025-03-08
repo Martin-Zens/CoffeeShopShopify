@@ -154,9 +154,14 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "promotion_gbPhLi": {
+      "type": "promotion",
+      "settings": {}
     }
   },
   "order": [
+    "promotion_gbPhLi",
     "image_banner",
     "featured_products",
     "733401c0-d3bc-4036-81f7-021168a51745",

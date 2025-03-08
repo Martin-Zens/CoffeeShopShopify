@@ -1,0 +1,15 @@
+.promotionContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+  }
+
+
+@media screen and (max-width: 750px) {
+    .promotionContainer{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+  }
