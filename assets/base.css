@@ -2112,3 +2112,39 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+/*Styles for Testimonials*/
+.testimonial-slider{
+    width: 100%;
+}
+
+.testimonial-card{
+    height: 500px;
+    max-width: 250px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.testimonial-card:focus{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.tesimonial-icon svg{
+    max-width: 10%;
+    max-height: 35px;
+}
+
+.testimonial-image{
+    text-align: center;
+}
+
+.testimonial-image img{
+    border-radius: 50%;
+    max-width: 25%;
+    margin: 15px auto;
+}
+
+.testimonial-name{
+    text-align: center;
+}

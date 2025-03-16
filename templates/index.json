@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "promotion_gbPhLi": {
+      "type": "promotion",
+      "settings": {
+        "heading": "",
+        "text": "",
+        "btn_label": "Shop Now",
+        "btn_link": "",
+        "bg_color": "rgba(0,0,0,0)",
+        "text_color": "#000000"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -155,8 +166,57 @@
         "mobile_layout": "collage"
       }
     },
-    "promotion_gbPhLi": {
-      "type": "promotion",
+    "testimonial_slider_ETFbgP": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "testimonial_fQJ8QC": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>ou going to do when the text is too damn long for your fucking paragraph bitch ass dude</p>",
+            "name": "two",
+            "image": "shopify://shop_images/user_1_dc38bfca-f169-4d53-9db6-009529910806.jpg"
+          }
+        },
+        "testimonial_GNmBnw": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>there is no problem, if the text is properly scpaced out dude</p>",
+            "name": "three",
+            "image": "shopify://shop_images/user_4_b1d2c17e-c51d-4006-bd58-db850aff0da1.jpg"
+          }
+        },
+        "testimonial_gmjWa3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>i mean, who the fuck would use 30 letter long words in the world just for an testimonail</p>",
+            "name": "one",
+            "image": "shopify://shop_images/user_2_c678f7e7-0b68-41ed-b82a-89fcc7a046b0.jpg"
+          }
+        },
+        "testimonial_Yj88AW": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>that would be hella fucked up, you know what I am saying? that would just be a bit unrealistic for our cstomers</p>",
+            "name": "asdf",
+            "image": "shopify://shop_images/user_3_e7b109a7-db72-47e5-851a-9f409edb2d07.jpg"
+          }
+        },
+        "testimonial_6WXyxU": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>on god, this shit will last for all eternity, just so you know what is handing right here homie</p>",
+            "name": "four",
+            "image": "shopify://shop_images/user_5_e91f26fe-4dc2-439a-ab70-d9f4b526fff0.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fQJ8QC",
+        "testimonial_GNmBnw",
+        "testimonial_gmjWa3",
+        "testimonial_Yj88AW",
+        "testimonial_6WXyxU"
+      ],
       "settings": {}
     }
   },
@@ -167,6 +227,7 @@
     "733401c0-d3bc-4036-81f7-021168a51745",
     "image_text",
     "c7fe94a9-2cc0-4324-970e-6e9d6ca1803e",
-    "ca3c2114-8a62-4a6a-83b9-5ba7ef42e9ec"
+    "ca3c2114-8a62-4a6a-83b9-5ba7ef42e9ec",
+    "testimonial_slider_ETFbgP"
   ]
 }
