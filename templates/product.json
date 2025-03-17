@@ -54,6 +54,16 @@
           "type": "description",
           "settings": {}
         },
+        "coffee_info_bRjaPC": {
+          "type": "coffee_info",
+          "settings": {
+            "taste": "taste{{ product.metafields.custom.taste.value }}",
+            "strength": "4{{ product.metafields.custom.strength.value }}",
+            "acidity": "3{{ product.metafields.custom.coffee_acidity.value }}",
+            "type": "type{{ product.metafields.custom.coffee_type.value }}",
+            "origin": "origin{{ product.metafields.custom.coffee_origin.value }}"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {}
@@ -68,6 +78,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "coffee_info_bRjaPC",
         "share"
       ],
       "settings": {
@@ -135,7 +146,6 @@
   "order": [
     "main",
     "multicolumn_wrTFd4",
-    "featured_collection_YmwHHw",
-   
+    "featured_collection_YmwHHw"
   ]
 }

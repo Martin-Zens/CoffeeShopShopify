@@ -118,43 +118,33 @@
                     <table class="coffee-info">
                       <tr>
                         <td><b>Taste</b></td>
-                        <td>Hazelnut, Sweet Fruits</td>
+                        <td>{{block.settings.taste}}</td>
                       </tr>
 
                       <tr>
                         <td><b>Strength</b></td>
                         <td>
-                          <div class="coffee-indicator">
-                            {% render 'icon-bean-filled' %}
-                            {% render 'icon-bean-filled' %}
-                            {% render 'icon-bean-filled' %}
-                            {% render 'icon-bean-filled' %}
-                            {% render 'icon-bean-empty' %}
-                          </div>  
+                          {%  assign strength = block.settings.strength |  plus: 0 %} 
+                          {% render 'coffee-indicator', level:strength %}
                         </td>
                       </tr>
 
                       <tr>
                         <td><b>Acidity</b></td>
                         <td>
-                          <div class="coffee-indicator">
-                            {% render 'icon-bean-filled' %}
-                            {% render 'icon-bean-filled' %}
-                            {% render 'icon-bean-empty' %}
-                            {% render 'icon-bean-empty' %}
-                            {% render 'icon-bean-empty' %}
-                          </div>  
+                          {%  assign acidity = block.settings.acidity |  plus: 0 %} 
+                          {% render 'coffee-indicator', level:acidity %}
                         </td>
                       </tr>
                       
                       <tr>
                         <td><b>Type</b></td>
-                        <td>100% Arabica, Single Origin</td>  
+                        <td>{{block.settings.type}}</td>  
                       </tr>
                       
                       <tr>
                         <td><b>Origin</b></td>
-                        <td>Ethiopia</td>
+                        <td>{{block.settings.origin}}</td>
                       </tr>
                     </table>
 
@@ -652,7 +642,31 @@
       "type": "coffee_info",
       "name": "coffee info",
       "settings": [
-
+          {
+            "id":"taste",
+            "label":"taste",
+            "type":"text"
+          },
+          {
+            "id":"strength",
+            "label":"strength",
+            "type": "text"
+          },
+          {
+            "id":"acidity",
+            "label":"acidity",
+            "type": "text"
+          },
+          {
+            "id":"type",
+            "label":"type",
+            "type": "text"
+          },
+          {
+            "id":"origin",
+            "label":"origin",
+            "type": "text"
+          }
       ]
     },
     {
